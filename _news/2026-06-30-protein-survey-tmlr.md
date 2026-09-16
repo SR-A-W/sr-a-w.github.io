@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our survey [A Survey on Efficient Protein Language Models](https://openreview.net/forum?id=PTReuOwsXz) was published in TMLR! 🎉
+My first-author survey [A Survey on Efficient Protein Language Models](https://openreview.net/forum?id=PTReuOwsXz) was published in TMLR! 🎉
