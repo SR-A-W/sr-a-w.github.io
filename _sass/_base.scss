@@ -19,6 +19,10 @@ strong {
   color: var(--global-text-color);
 }
 
+.availability-note strong {
+  color: var(--global-theme-color);
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -293,6 +297,10 @@ ul.task-list input[type="checkbox"] {
     &:hover {
       color: var(--global-hover-color);
     }
+  }
+
+  .navbar-nav > .nav-item > a.nav-link {
+    text-transform: uppercase;
   }
 
   .navbar-nav .nav-item.active > .nav-link {

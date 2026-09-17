@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our survey [A Survey on Agent Skills for LLMs](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6746498) is now available.
+Our survey [A Survey on Agent Skills for LLMs](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6746498) is now available on SSRN! 📄
