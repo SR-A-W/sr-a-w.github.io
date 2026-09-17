@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://case.edu/'>Case Western Reserve University</a> | sxw992@case.edu
 
@@ -22,7 +22,7 @@ I'm Shouren Wang, a PhD student in Computer Science at [Case Western Reserve Uni
 
 Previously, I earned an M.S. in Computer Engineering from [New York University](https://www.nyu.edu/), where I was part of the [Game Innovation Lab](https://game.engineering.nyu.edu/), and a B.E. in Digital Media Technology from [Hunan University](https://www.hnu.edu.cn/).
 
-<p style="color: var(--global-theme-color);"><strong>I am actively seeking internship opportunities and would be glad to discuss potential research collaborations.</strong></p>
+<p class="availability-note"><strong>I am actively seeking internship opportunities and would be glad to discuss potential research collaborations.</strong></p>
 
 ## **Research Interests**
 
