@@ -6,7 +6,7 @@
     "email": "sxw992@case.edu",
     "phone": "+1 (929) 302-1790",
     "url": "https://sr-a-w.github.io",
-    "summary": "PhD student at Case Western Reserve University working on large language model reasoning, post-training, efficient language models, and AI agent systems.",
+    "summary": "PhD student at Case Western Reserve University working on large language model reasoning, post-training, efficient language models, model architecture, and AI agent systems.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -41,7 +41,7 @@
     {
       "institution": "New York University",
       "location": "Brooklyn, NY",
-      "url": "https://www.nyu.edu",
+      "url": "https://engineering.nyu.edu/",
       "area": "Computer Engineering",
       "studyType": "M.S.",
       "startDate": "2021-09-01",
@@ -61,17 +61,14 @@
   ],
   "work": [
     {
-      "name": "NYU Game Innovation Lab",
-      "position": "Research Intern",
-      "url": "https://gameinnovationlab.com",
-      "location": "Brooklyn, NY",
-      "startDate": "2023-08-01",
-      "endDate": "2024-07-31",
-      "summary": "Explored research and methods for creative AI for video games.",
-      "highlights": [
-        "Developed enjoyment-focused game-playing agents for Street Fighter 2 via an extended PPO model and self-play",
-        "Advisor: Julian Togelius, Professor, New York University"
-      ]
+      "name": "TAPP AI, Case Western Reserve University",
+      "position": "Graduate Research Assistant",
+      "url": "https://case-tappai.github.io/",
+      "location": "Cleveland, OH",
+      "startDate": "2024-08-01",
+      "endDate": "",
+      "summary": "Conduct research on large language model reasoning, post-training, efficient language models, model architecture, and AI agent systems.",
+      "highlights": ["Advisors: Xiaotian Han and Vipin Chaudhary"]
     },
     {
       "name": "Case Western Reserve University",
@@ -84,17 +81,37 @@
       "highlights": ["Professors: Xiaotian Han (Large Language Models); Yinghui Wu (Database Systems)"]
     },
     {
+      "name": "NYU Game Innovation Lab",
+      "position": "Research Intern",
+      "url": "https://game.engineering.nyu.edu/",
+      "location": "Brooklyn, NY",
+      "startDate": "2023-08-01",
+      "endDate": "2024-07-31",
+      "summary": "Explored research and methods for creative AI for video games.",
+      "highlights": [
+        "Developed enjoyment-focused game-playing agents for Street Fighter II via an extended PPO model and self-play",
+        "Advisor: Julian Togelius, Professor, New York University"
+      ]
+    },
+    {
       "name": "AsiaInfo Technology",
       "position": "Research and Development Engineer",
       "url": "https://www.asiainfo.com",
       "location": "Nanjing, China",
       "startDate": "2019-09-01",
       "endDate": "2020-09-30",
-      "summary": "Tested and enhanced the performance of the CTDI project as a QA group member, contributing to project efficiency.",
+      "summary": "Tested the CTDI project and improved its performance as a member of the QA team.",
       "highlights": ["Manager: Ted Wang"]
     }
   ],
   "publications": [
+    {
+      "name": "How to Loop MoE: Flatten the Experts, Untie the Attention",
+      "publisher": "arXiv Preprint",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2609.35751",
+      "summary": "Shouren Wang*, Chuang Ma*, Mohsen Hariri, Debargha Ganguly, Wang Yang, Xiaoqing Tong, Qianying Liu, Xiaotian Han†, Vipin Chaudhary†"
+    },
     {
       "name": "Path-Lock Expert: Separating Reasoning Mode in Hybrid Thinking via Architecture-Level Separation",
       "publisher": "COLM 2026",
@@ -164,16 +181,21 @@
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2605.21928",
       "summary": "Vikash Singh, Weicong Chen, Debargha Ganguly, Yanyan Zhang, Nengbo Wang, Sreehari Sankar, Mohsen Hariri, Alexander Nemecek, Chaoda Song, Shouren Wang, Biyao Zhang, Van Yang, Erman Ayday, Jing Ma, Vipin Chaudhary†"
-    },
-    {
-      "name": "Enhancing Player Enjoyment with a Two-Tier DRL and LLM-Based Agent System for Fighting Games",
-      "publisher": "Under Review",
-      "releaseDate": "2026",
-      "url": "https://arxiv.org/abs/2504.07425",
-      "summary": "Shouren Wang, Zehua Jiang, Fernando Sliva, Sam Earle, Julian Togelius†"
     }
   ],
   "projects": [
+    {
+      "name": "How to Loop MoE: Flatten the Experts, Untie the Attention",
+      "summary": "LLMs · Mixture-of-Experts · Model Architecture",
+      "startDate": "2026-01-01",
+      "endDate": "2026-09-01",
+      "url": "/projects/how-to-loop-moe/",
+      "highlights": [
+        "Proposed Foil, a looped MoE architecture that flattens expert layers, loops them more often, and gives each pass its own attention parameters while holding expert parameters and expert compute per token fixed",
+        "Validated Foil with 20B-token pretraining and 100B-token continued training; every Foil model outperformed the unflattened baseline at 20B tokens, and the most flattened model finished 0.012 nat lower at 100B tokens with downstream accuracy on par or better",
+        "Characterized expert utilization through coverage, load balance, and routing confidence, showing that wider expert layers and additional passes amplify one another and that routing-confidence peaks help diagnose diminishing returns from looping"
+      ]
+    },
     {
       "name": "Agent Team Work Zone",
       "summary": "LLM Agents · Claude Code · Multi-Agent Workflow",
@@ -184,7 +206,7 @@
         "Built and maintain an open-source persistence layer for Claude Code's Agent Teams, whose teammates vanish on session restart with no native recovery",
         "Designed per-agent workstations (role, working context, checkpoints, commitments) and a team registry, so one command rebuilds an interrupted team from disk",
         "Shipped 13 slash-command skills and hook-driven auto-checkpointing across four public releases, maintaining parallel editions through a breaking Claude Code API change",
-        "Dogfood the layer end-to-end: the agent team that develops it runs on it"
+        "Use the system end-to-end in its own development workflow: the agent team that builds it also runs on it"
       ]
     },
     {
