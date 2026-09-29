@@ -33,5 +33,6 @@ The resulting design guidance is simple: under a fixed expert-parameter and comp
 
 ## Links
 
+- [arXiv preprint](https://arxiv.org/abs/2609.35751)
 - <a href="{{ '/assets/pdf/projects/how-to-loop-moe/how-to-loop-moe-arxiv-version.pdf' | relative_url }}" download>Download the arXiv-version PDF</a>
 - [Code and configurations](https://github.com/SR-A-W/how-to-loop-moe)
