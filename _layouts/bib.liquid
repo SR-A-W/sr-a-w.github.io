@@ -176,7 +176,7 @@
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
-      {% if entry.publication_priority == "1" %}
+      {% if entry.publication_priority == '1' %}
         <strong>{{ periodical | strip }}</strong>
       {% else %}
         {{ periodical | strip }}
