@@ -188,7 +188,7 @@
       "name": "How to Loop MoE: Flatten the Experts, Untie the Attention",
       "summary": "LLMs · Mixture-of-Experts · Model Architecture",
       "startDate": "2026-07-01",
-      "endDate": "2026-09-01",
+      "endDate": "",
       "url": "/projects/how-to-loop-moe/",
       "highlights": [
         "Proposed Foil, a looped MoE architecture that flattens expert layers, loops them more often, and gives each pass its own attention parameters while holding expert parameters and expert compute per token fixed",
