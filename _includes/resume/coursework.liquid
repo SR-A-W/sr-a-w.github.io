@@ -1,0 +1,7 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for content in data[1] %}
+    <li class="list-group-item">
+      <strong>{{ content.name }}:</strong> {{ content.courses | join: '; ' }}
+    </li>
+  {% endfor %}
+</ul>

@@ -647,7 +647,9 @@ jsonresume:
   - volunteer
   - awards
   - certificates
+  - service
   - skills
+  - coursework
   - languages
   - interests
   - references

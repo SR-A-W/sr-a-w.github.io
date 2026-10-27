@@ -61,3 +61,5 @@ The accompanying paper is a developer-oriented design manual rather than a bench
 
 - [Paper](https://arxiv.org/abs/2607.22917)
 - [Code](https://github.com/SR-A-W/agent-team-work-zone)
+
+- [npm package](https://www.npmjs.com/package/agent-team-work-zone)

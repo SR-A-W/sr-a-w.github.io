@@ -20,6 +20,14 @@
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.publisher }}</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
+          {% if content.links %}
+            <p class="ml-1 ml-md-4">
+              {% for link in content.links %}
+                <a href="{{ link.url }}">[{{ link.name }}]</a>
+                {%- unless forloop.last %} · {% endunless %}
+              {% endfor %}
+            </p>
+          {% endif %}
         </div>
       </div>
     </li>
