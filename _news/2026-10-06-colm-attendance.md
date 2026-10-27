@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am at COLM 2026 in San Francisco—if you are attending, feel free to come say hello and chat! 👋
+I am at COLM 2026 in San Francisco! I will be presenting our paper [Path-Lock Expert](https://arxiv.org/abs/2604.27201). If you are attending, feel free to come say hello and chat! 👋
