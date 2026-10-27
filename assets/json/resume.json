@@ -6,7 +6,7 @@
     "email": "sxw992@case.edu",
     "phone": "+1 (929) 302-1790",
     "url": "https://sr-a-w.github.io",
-    "summary": "PhD student at Case Western Reserve University working on large language model reasoning, post-training, efficient language models, model architecture, and AI agent systems.",
+    "summary": "PhD student at Case Western Reserve University working on large language model reasoning, post-training, model architecture, and AI agent systems.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -36,7 +36,7 @@
       "studyType": "Ph.D.",
       "startDate": "2024-08-01",
       "endDate": "",
-      "courses": []
+      "courses": ["GPA: 3.83/4.0"]
     },
     {
       "institution": "New York University",
@@ -67,7 +67,7 @@
       "location": "Cleveland, OH",
       "startDate": "2024-08-01",
       "endDate": "",
-      "summary": "Conduct research on large language model reasoning, post-training, efficient language models, model architecture, and AI agent systems.",
+      "summary": "Conduct research on large language model reasoning, post-training, model architecture, and AI agent systems.",
       "highlights": ["Advisors: Xiaotian Han and Vipin Chaudhary"]
     },
     {
@@ -106,13 +106,6 @@
   ],
   "publications": [
     {
-      "name": "How to Loop MoE: Flatten the Experts, Untie the Attention",
-      "publisher": "arXiv Preprint",
-      "releaseDate": "2026",
-      "url": "https://arxiv.org/abs/2609.35751",
-      "summary": "Shouren Wang*, Chuang Ma*, Mohsen Hariri, Debargha Ganguly, Wang Yang, Xiaoqing Tong, Qianying Liu, Xiaotian Han†, Vipin Chaudhary†"
-    },
-    {
       "name": "Path-Lock Expert: Separating Reasoning Mode in Hybrid Thinking via Architecture-Level Separation",
       "publisher": "COLM 2026",
       "releaseDate": "2026",
@@ -139,6 +132,41 @@
       "releaseDate": "2026",
       "url": "https://openreview.net/forum?id=PTReuOwsXz",
       "summary": "Shouren Wang, Debargha Ganguly, Vinooth Rao Kulkarni, Wang Yang, Zhuoran Qiao, Daniel Blankenberg, Vipin Chaudhary†, Xiaotian Han†"
+    },
+    {
+      "name": "How to Loop MoE: Flatten the Experts, Untie the Attention",
+      "publisher": "Under Review",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2609.35751",
+      "summary": "Shouren Wang*, Chuang Ma*, Mohsen Hariri, Debargha Ganguly, Wang Yang, Xiaoqing Tong, Qianying Liu, Xiaotian Han†, Vipin Chaudhary†"
+    },
+    {
+      "name": "Agent Team Work Zone: An Automated, Persistent Workspace for Long-Lived Claude Code Agent Teams",
+      "publisher": "Preprint, Open Source, npm Package",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2607.22917",
+      "summary": "Shouren Wang",
+      "links": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2607.22917"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/SR-A-W/agent-team-work-zone"
+        },
+        {
+          "name": "npm",
+          "url": "https://www.npmjs.com/package/agent-team-work-zone"
+        }
+      ]
+    },
+    {
+      "name": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+      "publisher": "Under Review",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2608.04001",
+      "summary": "Mohsen Hariri, Weicong Chen, Nahal Shahini, Vikash Singh, Kai Ye, Amirhossein Samandar, Debargha Ganguly, Sreehari Sankar, Yanyan Zhang, Shouren Wang, Jerry Peng, Biyao Zhang, Michael Hinczewski, Vipin Chaudhary"
     },
     {
       "name": "When Domains Interact: Asymmetric and Order-Sensitive Cross-Domain Effects in Reinforcement Learning for Reasoning",
@@ -186,7 +214,7 @@
   "projects": [
     {
       "name": "How to Loop MoE: Flatten the Experts, Untie the Attention",
-      "summary": "LLMs · Mixture-of-Experts · Model Architecture",
+      "summary": "LLMs · Model Architecture · Mixture-of-Experts · Looped Model",
       "startDate": "2026-07-01",
       "endDate": "",
       "url": "/projects/how-to-loop-moe/",
@@ -207,6 +235,20 @@
         "Designed per-agent workstations (role, working context, checkpoints, commitments) and a team registry, so one command rebuilds an interrupted team from disk",
         "Shipped 13 slash-command skills and hook-driven auto-checkpointing across four public releases, maintaining parallel editions through a breaking Claude Code API change",
         "Use the system end-to-end in its own development workflow: the agent team that builds it also runs on it"
+      ],
+      "links": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2607.22917"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/SR-A-W/agent-team-work-zone"
+        },
+        {
+          "name": "npm",
+          "url": "https://www.npmjs.com/package/agent-team-work-zone"
+        }
       ]
     },
     {
@@ -267,6 +309,42 @@
       "name": "AI Development Tools",
       "level": "",
       "keywords": ["Claude Code", "OpenClaw", "Codex", "Cursor"]
+    }
+  ],
+  "service": [
+    {
+      "role": "Reviewer",
+      "name": "Conference on Language Modeling (COLM)",
+      "year": "2026"
+    },
+    {
+      "role": "Reviewer",
+      "name": "International Conference on Learning Representations (ICLR)",
+      "year": "2027",
+      "status": "ongoing"
+    }
+  ],
+  "coursework": [
+    {
+      "name": "LLMs & Generative Models",
+      "courses": ["Large Language Models [CWRU, CSDS 600]", "Deep Generative Models [CWRU, CSDS 570]"]
+    },
+    {
+      "name": "Machine Learning",
+      "courses": [
+        "Advanced Machine Learning [NYU, ECE-GY 7143]",
+        "Machine Learning [NYU, ECE-GY 6143]",
+        "Causality and Machine Learning [CWRU, CSDS 452]",
+        "Data Mining [CWRU, CSDS 435]"
+      ]
+    },
+    {
+      "name": "Core CS & Mathematics",
+      "courses": [
+        "Data Structures and Algorithms [NYU, ECE-GY 9343]",
+        "Computing Systems Architecture [NYU, ECE-GY 6913]",
+        "Probability and Stochastic Processes [NYU, ECE-GY 6303]"
+      ]
     }
   ]
 }
