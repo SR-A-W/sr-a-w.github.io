@@ -36,7 +36,7 @@
       "studyType": "Ph.D.",
       "startDate": "2024-08-01",
       "endDate": "",
-      "courses": ["GPA: 3.83/4.0"]
+      "courses": ["GPA: 3.83/4.0", "Expected graduation: May 2028"]
     },
     {
       "institution": "New York University",
@@ -65,7 +65,7 @@
       "position": "Graduate Research Assistant",
       "url": "https://case-tappai.github.io/",
       "location": "Cleveland, OH",
-      "startDate": "2024-08-01",
+      "startDate": "2025-06-01",
       "endDate": "",
       "summary": "Conduct research on large language model reasoning, post-training, model architecture, and AI agent systems.",
       "highlights": ["Advisors: Xiaotian Han and Vipin Chaudhary"]
@@ -85,7 +85,7 @@
       "position": "Research Intern",
       "url": "https://game.engineering.nyu.edu/",
       "location": "Brooklyn, NY",
-      "startDate": "2023-08-01",
+      "startDate": "2023-11-01",
       "endDate": "2024-07-31",
       "summary": "Explored research and methods for creative AI for video games.",
       "highlights": [
